@@ -1,0 +1,266 @@
+{
+	"assahk": {
+		"prefix": "assahk",
+		"body": "\n\\$this->assertArrayHasKey(${1:key}, ${2:array}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assae": {
+		"prefix": "assae",
+		"body": "\n\\$this->assertAttributeEquals(${1:expectedValue}, ${2:attributeName}, ${3:object});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asscha": {
+		"prefix": "asscha",
+		"body": "\n\\$this->assertClassHasAttribute(${1:attributeName}, ${2:className}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asschsa": {
+		"prefix": "asschsa",
+		"body": "\n\\$this->assertClassHasStaticAttribute(${1:attributeName}, ${2:className}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assc": {
+		"prefix": "assc",
+		"body": "\n\\$this->assertContains(${1:needle}, ${2:haystack}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assco": {
+		"prefix": "assco",
+		"body": "\n\\$this->assertContainsOnly(${1:type}, ${2:haystack}${3:, '${4:isNativeType}'}${5:, '${6:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asscu": {
+		"prefix": "asscu",
+		"body": "\n\\$this->assertCount(${1:expectedCount}, ${2:haystack}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assem": {
+		"prefix": "assem",
+		"body": "\n\\$this->assertEmpty(${1:actual}${2:, '${3:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assexml": {
+		"prefix": "assexml",
+		"body": "\n\\$this->assertEqualXMLStructure(${1:expectedElement}, ${2:actualElement}${3:, '${4:checkAttributes}'}${5:, '${6:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asse": {
+		"prefix": "asse",
+		"body": "\n\\$this->assertEquals(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assf": {
+		"prefix": "assf",
+		"body": "\n\\$this->assertFalse(${1:actual}${2:, '${3:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assfe": {
+		"prefix": "assfe",
+		"body": "\n\\$this->assertFileEquals(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assfx": {
+		"prefix": "assfx",
+		"body": "\n\\$this->assertFileExists(${1:filename}${2:, '${3:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assgt": {
+		"prefix": "assgt",
+		"body": "\n\\$this->assertGreaterThan(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assgte": {
+		"prefix": "assgte",
+		"body": "\n\\$this->assertGreaterThanOrEqual(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assio": {
+		"prefix": "assio",
+		"body": "\n\\$this->assertInstanceOf(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assit": {
+		"prefix": "assit",
+		"body": "\n\\$this->assertInternalType(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asslt": {
+		"prefix": "asslt",
+		"body": "\n\\$this->assertLessThan(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asslte": {
+		"prefix": "asslte",
+		"body": "\n\\$this->assertLessThanOrEqual(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assnn": {
+		"prefix": "assnn",
+		"body": "\n\\$this->assertNotNull(${1:actual}${2:, '${3:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assn": {
+		"prefix": "assn",
+		"body": "\n\\$this->assertNull(${1:actual}${2:, '${3:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assoha": {
+		"prefix": "assoha",
+		"body": "\n\\$this->assertObjectHasAttribute(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assre": {
+		"prefix": "assre",
+		"body": "\n\\$this->assertRegExp(${1:pattern}, ${2:string}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asss": {
+		"prefix": "asss",
+		"body": "\n\\$this->assertSame(${1:expected}, ${2:actual}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asssc": {
+		"prefix": "asssc",
+		"body": "\n\\$this->assertSelectCount(${1:selector}, ${2:count}$, ${3:actual}{4:, '${5:message}'}{6:, '${7:isHtml}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assse": {
+		"prefix": "assse",
+		"body": "\n\\$this->assertSelectEquals(${1:selector}, ${2:content}, ${3:count}, ${4:actual}${5:, '${6:message}'}${7:, '${8:isHtml}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asssre": {
+		"prefix": "asssre",
+		"body": "\n\\$this->assertSelectRegExp(${1:selector}, ${2:pattern}, ${3:count}, ${4:actual}${5:, '${6:message}'}${7:, '${8:isHtml}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asssew": {
+		"prefix": "asssew",
+		"body": "\n\\$this->assertStringEndsWith(${1:suffix}, ${2:string}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asssef": {
+		"prefix": "asssef",
+		"body": "\n\\$this->assertStringEqualsFile(${1:expectedFile}, ${2:actualString}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asssmf": {
+		"prefix": "asssmf",
+		"body": "\n\\$this->assertStringMatchesFormat(${1:format}, ${2:string}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asssmff": {
+		"prefix": "asssmff",
+		"body": "\n\\$this->assertStringMatchesFormatFile(${1:formatFile}, ${2:string}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assssw": {
+		"prefix": "assssw",
+		"body": "\n\\$this->assertStringStartsWith(${1:prefix}, ${2:string}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assta": {
+		"prefix": "assta",
+		"body": "\n\\$this->assertTag(${1:matcher}, ${2:actual}${3:, '${4:message}'}${5:, '${6:isHtml}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"asst": {
+		"prefix": "asst",
+		"body": "\n\\$this->assertTrue(${1:actual}${2:, '${3:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assxmlfef": {
+		"prefix": "assxmlfef",
+		"body": "\n\\$this->assertXmlFileEqualsXmlFile(${1:expectedFile}, ${2:actualFile}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assxmlsef": {
+		"prefix": "assxmlsef",
+		"body": "\n\\$this->assertXmlStringEqualsXmlFile(${1:expectedFile}, ${2:actualXml}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"assxmlses": {
+		"prefix": "assxmlses",
+		"body": "\n\\$this->assertXmlStringEqualsXmlString(${1:expectedXml}, ${2:actualXml}${3:, '${4:message}'});\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"testcase": {
+		"prefix": "testcase",
+		"body": "/**\n * $1Test\n *\n * @group ${2:group}\n */\nclass ${1:ClassName}Test extends \\PHPUnit_Framework_TestCase\n{\n    ${0:// Tests...}\n}\n\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"setup": {
+		"prefix": "setup",
+		"body": "\npublic function setUp()\n{\n\t${0:// set up}\n}\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"teardown": {
+		"prefix": "teardown",
+		"body": "\npublic function tearDown()\n{\n\t${0:// tear down}\n}\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"test": {
+		"prefix": "test",
+		"body": "\n/**\n * @covers ${2:class}::$1()\n */\npublic function test${1/(.*)/\\u$1/}()\n{\n\t${0:// assertions}\n}\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"test2": {
+		"prefix": "test2",
+		"body": "\n/**\n * @covers ${3:class}::$1()\n * @covers ${3:class}::$2()\n */\npublic function test${1/(.*)/\\u$1/}_${2/(.*)/\\u$1/}()\n{\n    ${0:// assertions}\n}\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"testex": {
+		"prefix": "testex",
+		"body": "\n/**\n * @covers ${2:class}::$1()\n * @expectedException ${3:exception}\n */\npublic function test${1/(.*)/\\u$1/}()\n{\n\t${0:// assertions}\n}\n",
+		"description": "",
+		"scope": "source.php"
+	},
+	"testi": {
+		"prefix": "testi",
+		"body": "\n/**\n * @covers ${2:class}::$1()\n */\npublic function test${1/(.*)/\\u$1/}()\n{\n    \\$this->markTestIncomplete('${0:Not yet implemented}');\n}\n",
+		"description": "",
+		"scope": "source.php"
+	}
+}
